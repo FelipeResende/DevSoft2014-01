@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Estatísticas de estágio</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- My css -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row header">
+				<div class="col-md-8"><span class="h1">Felipe Cardoso Resende</span></div>
+				<div class="col-md-4"><span class="h4">Práticas de Desenvolvimento de Software</span></div>
+			</div>
+			<div class="row body">
+				<div class="col-sm-2 sidebar">
+					<ul class="nav nav-sidebar">
+						<li class="active">
+							<a href="resumo.html">Resumo</a>
+						</li>
+						<li>
+							<a href="vagas.html">Vagas por período</a>
+						</li>
+						<li>
+							<a href="requisitos.html">Requisitos:<br>Palavras-chave</a>
+						</li>
+						<li>
+							<a href="descricao.html">Descrição:<br>Palavras-chave</a>
+						</li>
+						<li>
+							<a href="busca.html">Busca</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-10 main">
+					<div class="sub-header h3">
+						Busca
+					</div>
+					<div class="busca">
+						<form class="form-inline" role="form">
+							<div class="form-group">
+								<label class="sr-only" for="txtBusca">Busca</label>
+								<input type="text" class="form-control" id="txtBusca" placeholder="Digite o termo de busca">
+							</div>
+							<button type="submit" id="btnBuscar" class="btn btn-default">Pesquisasr vagas</button>
+							<br><br>
+							Campos considerados
+							<br><br>
+							<div class="checkbox">
+								<label>
+									<input id="chkHabilitacao" type="checkbox">Habilitação
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input id="chkEmpresa" type="checkbox">Empresa
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input id="chkDescricao" type="checkbox">Descrição
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input id="chkBenefícios" type="checkbox">Benefícios
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input id="chkNumVagas" type="checkbox">Número de vagas
+								</label>
+							</div>
+							<br>
+							<div class="checkbox">
+								<label>
+									<input id="chkTitulo" type="checkbox" checked>Título
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input id="chkArea" type="checkbox">Área de atuação
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input id="chkRequisitos" type="checkbox">Requisitos
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input id="chkContatos" type="checkbox">Contatos
+								</label>
+							</div>
+						</form>
+					</div>
+					<div class="resultados">
+						<div class="sub-header h4">Resultados</div>
+						<div class="info">
+							<span id="tempo_busca">Tempo de busca: </span>
+							<br>
+							<span id="nVagas">Vagas encontradas: </span>
+							<br>
+							<div class="lista-resultados">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<span class="footer">Projeto desenvolvido para o curso de Práticas de Desenvolvimento de Software</span>
+			</div>
+		</div>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/busca.js"></script>
+
+	</body>
+</html>

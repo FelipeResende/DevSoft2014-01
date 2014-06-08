@@ -1,0 +1,84 @@
+.footer
+{
+	text-align:center;
+}
+.container-fluid
+{
+	background-color: #FFF;
+	border-radius:0.5em;
+}
+html, body
+{
+	height:100%;
+}
+body
+{
+	padding-left:8em;
+	padding-right:8em;
+	background-color: #708090;
+	
+}
+#spnome
+{
+	font-size:1.5em;
+	margin:0;
+}
+#spcurso
+{
+	font-size:1.2em;
+	margin:0;
+}
+.sidebar
+{
+	border-right-style:solid;
+	border-right-width:thin;
+	padding:0;
+}
+.sidebar li
+{
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+}
+.header
+{
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	padding:1em;
+}
+.sub-header
+{
+	margin-top:1em;
+}
+.body
+{
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+}
+.main
+{
+	padding:0;
+}
+.main > div
+{
+	padding-left:1em;
+}
+.infox
+{
+	padding-left:0.5em;
+}
+#txtBusca
+{
+		width:30em;
+}
+#options
+{
+	text-align:center;
+}
+.colbar
+{
+	width: 90%
+}
+h4
+{
+	display: inline;
+}
